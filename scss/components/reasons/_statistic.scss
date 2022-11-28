@@ -1,0 +1,40 @@
+.statistic {
+	&-right {
+		margin-top: 40px;
+	}
+}
+.block {
+	background-color: $barber-bg;
+	padding: 20px 24px;
+	max-width: 170px;
+	&:not(:last-child) {
+		margin-bottom: 30px;
+	}
+	&__numbers {
+		font-weight: 700;
+		font-size: 42px;
+		line-height: 1.36;
+		text-align: center;
+		letter-spacing: 0.05em;
+		color: $title-color;
+		margin-bottom: 6px;
+		display: flex;
+		justify-content: center;
+		margin-left: 13px;
+	}
+	&__descr {
+		font-weight: 600;
+		font-size: 11px;
+		line-height: 1.36;
+		text-align: center;
+	}
+	&__sup {
+		display: block;
+		padding-top: 6px;
+		padding-left: 2px;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 1.375;
+		color: $hover-color;
+	}
+}

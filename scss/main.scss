@@ -1,0 +1,51 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@700&display=swap";
+
+// Utilities
+@import "utilities/variables";
+
+// Base
+@import "base/basic";
+
+// Re-use components
+@import "components/re-use/online-booking-btn";
+@import "components/re-use/links";
+
+// Header
+@import "components/header/header";
+@import "components/header/nav";
+@import "components/header/tel-btn";
+
+// Promo
+@import "components/promo/promo";
+@import "components/promo/promo-btns";
+
+// About
+@import "components/about/about";
+
+// Prices
+@import "components/prices/prices";
+@import "components/prices/list";
+
+// Reasons
+@import "components/reasons/reasons";
+@import "components/reasons/statistic";
+
+// Barbers
+@import "components/barbers/barbers";
+@import "components/barbers/card";
+@import "components/barbers/social";
+
+// Portfolio
+@import "components/portfolio/portfolio";
+
+// Pre-footer
+@import "components/pre-footer/pre-footer";
+@import "components/pre-footer/online-booking";
+@import "components/pre-footer/form";
+@import "components/pre-footer/contacts";
+@import "components/pre-footer/address";
+@import "components/pre-footer/hours";
+
+// Footer
+@import "components/footer/footer";
+@import "components/footer/copyright";

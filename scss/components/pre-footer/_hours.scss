@@ -1,0 +1,17 @@
+.hours {
+	margin-top: 70px;
+	&__h3 {
+		color: $white-color;
+		margin-bottom: 20px;
+		&::before {
+			background-color: $form-input;
+		}
+	}
+	&__descr {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 1.67;
+		letter-spacing: 0.02em;
+		color: $descr-color-bg;
+	}
+}

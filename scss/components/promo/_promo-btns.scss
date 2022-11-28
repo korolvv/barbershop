@@ -1,0 +1,44 @@
+.markers {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-bottom: 250px;
+	&__li {
+		width: 8px;
+		height: 2px;
+		background-color: $descr-color-bg;
+		&:not(:last-child) {
+			margin-bottom: 12px;
+		}
+		&-active {
+			width: 18px;
+			background-color: $white-color;
+		}
+	}
+}
+.triggers {
+	display: flex;
+	column-gap: 24px;
+
+	&__btn {
+		display: block;
+		width: 60px;
+		border: none;
+		border-bottom: 1px solid $line-color;
+		font-weight: 600;
+		font-size: 11px;
+		line-height: 1.36;
+		letter-spacing: 0.1em;
+		color: $line-color;
+		background-color: transparent;
+		text-align: left;
+		padding-bottom: 8px;
+		&-right {
+			text-align: right;
+		}
+		&-active {
+			border-color: $white-color;
+			color: $white-color;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+.navigation {
+	display: flex;
+	align-items: center;
+	margin-left: 131px;
+}
+.nav {
+	display: flex;
+	column-gap: 30px;
+	&__link {
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 1.33;
+		letter-spacing: 0.1em;
+		color: $white-color;
+		transition: color 0.2s ease-out;
+		&:focus {
+			color: $hover-color;
+		}
+		&:hover {
+			color: $hover-color;
+		}
+	}
+}

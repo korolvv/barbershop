@@ -1,0 +1,21 @@
+.tel-btn {
+	display: flex;
+	align-items: center;
+	column-gap: 40px;
+	&__tel {
+		display: block;
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 1.33;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: $white-color;
+		transition: color 0.2s ease-out;
+		&:focus {
+			color: $hover-color;
+		}
+		&:hover {
+			color: $hover-color;
+		}
+	}
+}

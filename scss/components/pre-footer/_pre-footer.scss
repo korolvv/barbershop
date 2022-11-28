@@ -1,0 +1,8 @@
+.pre-footer {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	background-image: url(../images/pre-footer/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+}

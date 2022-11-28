@@ -1,0 +1,12 @@
+.barbers {
+	padding: 120px 0;
+	background-color: $barber-bg;
+	.container {
+		display: block;
+	}
+	&__items {
+		display: flex;
+		column-gap: 30px;
+		margin-top: 44px;
+	}
+}

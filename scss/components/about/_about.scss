@@ -1,0 +1,40 @@
+.about {
+	padding: 120px 0;
+	.container {
+		column-gap: 30px;
+	}
+	&__img {
+		display: flex;
+		column-gap: 30px;
+	}
+	&__descr {
+		max-width: 470px;
+	}
+	&__h2 {
+		margin-bottom: 20px;
+	}
+	&__h4 {
+		font-size: 18px;
+		line-height: 1.67;
+		letter-spacing: 0.02em;
+		color: $descr-color;
+		margin-bottom: 20px;
+		font-weight: 400;
+	}
+	&__p {
+		font-size: 14px;
+		line-height: 1.86;
+		letter-spacing: 0.02em;
+		color: $descr-color;
+		margin-bottom: 42px;
+	}
+	.online-booking-btn {
+		color: $title-color;
+		&:hover {
+			color: $white-color;
+		}
+		&:focus {
+			color: $white-color;
+		}
+	}
+}

@@ -1,0 +1,72 @@
+.form {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 30px;
+	max-width: 570px;
+	width: 100%;
+}
+
+.form__input {
+	border: none;
+	border-bottom: 1px solid $form-input;
+	background-color: transparent;
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: $white-color;
+	height: 33px;
+	outline: transparent;
+	transition: border-color 0.2s ease-out;
+	&::placeholder {
+		font-weight: 600;
+		font-size: 11px;
+		line-height: 1.36;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: $form-input;
+		transition: color 0.2s ease-out;
+	}
+
+	&:hover,
+	&:focus {
+		border-color: $white-color;
+		&::placeholder {
+			color: $white-color;
+		}
+	}
+}
+.form__textarea {
+	grid-column: 1 / 3;
+	background-color: transparent;
+	margin: 44px 0;
+	height: 76px;
+	resize: none;
+	border: none;
+	border-bottom: 1px solid $form-input;
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: $white-color;
+	outline: transparent;
+	transition: border-color 0.2s ease-out;
+	&::placeholder {
+		font-weight: 600;
+		font-size: 11px;
+		line-height: 1.36;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: $form-input;
+		transition: color 0.2s ease-out;
+	}
+	&:hover,
+	&:focus {
+		border-color: $white-color;
+		&::placeholder {
+			color: $white-color;
+		}
+	}
+}

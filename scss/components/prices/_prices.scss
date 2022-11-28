@@ -1,0 +1,25 @@
+.prices {
+	padding: 120px 0;
+	background: url(../images/prices/bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	.container {
+		display: block;
+	}
+	&__h3 {
+		color: $descr-color-bg;
+		opacity: 0.6;
+		&::before {
+			background-color: $descr-color-bg;
+		}
+	}
+	&__h2 {
+		margin-bottom: 44px;
+		color: $white-color;
+	}
+
+	.online-booking-btn {
+		margin: 0 auto;
+	}
+}

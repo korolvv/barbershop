@@ -1,0 +1,13 @@
+.portfolio {
+	padding: 120px 0;
+	.container {
+		display: block;
+	}
+	&__h2 {
+		margin-bottom: 44px;
+	}
+	&__items {
+		display: flex;
+		column-gap: 30px;
+	}
+}

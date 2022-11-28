@@ -1,0 +1,12 @@
+.copyright {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+	letter-spacing: 0.2em;
+	color: $descr-color-bg;
+	user-select: none;
+	&__text {
+		display: inline-block;
+		margin-left: 6px;
+	}
+}

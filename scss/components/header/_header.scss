@@ -1,0 +1,18 @@
+.header {
+	.container {
+		justify-content: space-between;
+		padding: 32px 20px 32px 0;
+		position: absolute;
+		top: 0;
+		left: 49.2%;
+		transform: translateX(-50%);
+	}
+}
+.logo-nav {
+	display: flex;
+}
+
+.logo {
+	display: block;
+	margin-left: 11px;
+}

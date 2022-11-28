@@ -1,0 +1,41 @@
+.list-contact__item:not(:last-child) {
+	margin-bottom: 24px;
+}
+
+.link-map,
+.link-tel,
+.link-email {
+	display: flex;
+	align-items: center;
+	font-style: normal;
+	.icon {
+		margin-right: 20px;
+		width: 24px;
+		height: 24px;
+	}
+}
+
+.link-map {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.67;
+	letter-spacing: 0.02em;
+	color: $descr-color-bg;
+	align-items: start;
+	.icon {
+		margin-top: 5px;
+	}
+}
+
+.link-tel,
+.link-email {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.67;
+	letter-spacing: 0.02em;
+	color: $descr-color-bg;
+}
+
+.link-email {
+	text-decoration: underline;
+}

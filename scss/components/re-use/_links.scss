@@ -1,0 +1,54 @@
+.links {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	&-footer {
+		justify-content: center;
+	}
+	&-rotate {
+		flex-direction: column;
+	}
+	&__item-rotate {
+		&:first-child {
+			width: 15px;
+			height: 58px;
+		}
+		&:nth-child(2) {
+			width: 15px;
+			height: 72px;
+		}
+	}
+
+	&__youtube,
+	&__insta {
+		display: block;
+		font-weight: 600;
+		font-size: 11px;
+		line-height: 1.36;
+		letter-spacing: 0.2em;
+		color: $title-color;
+		transition: color 0.2s ease-out;
+		&:hover,
+		&:focus {
+			color: $hover-color;
+		}
+	}
+	&__youtube-rotate {
+		width: 58px;
+		transform: rotate(-90deg) translate(-37%, -144%);
+	}
+	&__insta-rotate {
+		width: 72px;
+		transform: rotate(-90deg) translate(-41%, -191%);
+	}
+	&__line {
+		width: 1px;
+		height: 60px;
+		background: $title-color;
+		&-footer {
+			margin-top: 7px;
+			width: 60px;
+			height: 1px;
+		}
+	}
+}
